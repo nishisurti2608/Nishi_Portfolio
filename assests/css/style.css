@@ -341,6 +341,20 @@ image {
   transition: 0.3s;
 }
 
+.button--white {
+  background-color: #fff;
+  color: var(--first-color);
+  margin-bottom: 0.75rem;
+}
+
+.button--white:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.button--white:hover .button__icon {
+  transform: translateY(-0.25rem);
+}
+
 .button__small {
   padding: 0.75rem 1rem;
 }
@@ -360,6 +374,7 @@ image {
   background-color: transparent;
   color: var(--first-color-alt);
 }
+
 /*==================== ABOUT ====================*/
 
 .about__img {
@@ -759,6 +774,28 @@ image {
   outline: none;
 }
 /*==================== PROJECT IN MIND ====================*/
+
+.project {
+  text-align: center;
+}
+.project__bg {
+  background-color: var(--first-color-second);
+  padding-top: 3rem;
+}
+
+.project__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.project__description {
+  margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description {
+  color: #fff;
+}
 
 /*==================== TESTIMONIAL ====================*/
 
