@@ -121,7 +121,24 @@ let swiper = new Swiper(".mySwiper", {
   });
 
 /*==================== TESTIMONIAL ====================*/
+let swiperTestimonial = new Swiper(".testimonialSwiper", {
 
+    loop:true,
+    grabCursor:true,
+    spaceBetween: 48,
+  
+    pagination: {
+      el: ".swiper-pagination",
+      clickable:true,
+      dynamicBullets: true,
+    },
+    breakpoints:{
+        568:{
+            slidesPerView:2
+        }
+    }
+   
+  });
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
