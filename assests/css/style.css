@@ -149,12 +149,14 @@ image {
 
 .section__title {
   font-size: var(--h1-font-size);
+  text-align: center;
 }
 
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
+  text-align: center;
 }
 
 .section__title .section__subtitle {
@@ -1277,6 +1279,7 @@ image {
 
   .home__data {
     justify-content: center;
+    width: 600px;
   }
 
   .home__blob {
