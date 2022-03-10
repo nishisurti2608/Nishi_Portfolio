@@ -991,12 +991,17 @@ image {
   color: var(--text-color-light);
   margin-top: var(--mb-3);
 }
-
+.footer__subcopy {
+  font-size: var(--smaller-font-size);
+  text-align: center;
+  color: var(--text-color-light);
+}
 .footer__title,
 .footer__subtitle,
 .footer__link,
 .footer__social {
   color: #fff;
+  margin-top: var(--mb-0-25);
 }
 /*========== SCROLL UP ==========*/
 
